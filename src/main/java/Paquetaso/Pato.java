@@ -27,4 +27,22 @@ public class Pato {
         this.volar = volar;
     }
 
+    public int getPatas() {
+        return patas;
+    }
+
+    public void setPatas(int patas) {
+        this.patas = patas;
+    }
+
+    public boolean isVolar() {
+        return volar;
+    }
+
+    public void setVolar(boolean volar) {
+        this.volar = volar;
+    }
+    
+    
+
 }
