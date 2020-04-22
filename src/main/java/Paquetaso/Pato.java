@@ -27,6 +27,7 @@ public class Pato {
         this.volar = volar;
     }
 
+    // Se añaden los getters y setters
     public int getPatas() {
         return patas;
     }
@@ -42,7 +43,11 @@ public class Pato {
     public void setVolar(boolean volar) {
         this.volar = volar;
     }
-    
-    
+
+    // toString de la clase
+    @Override
+    public String toString() {
+        return "Pato{" + "patas=" + patas + ", volar=" + volar + '}';
+    }
 
 }
