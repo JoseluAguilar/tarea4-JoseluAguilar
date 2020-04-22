@@ -10,8 +10,21 @@ package Paquetaso;
  * @author josel
  */
 public class Pato {
+
     // Se añaden los atributos de la clase
     private int patas;
     private boolean volar;
-    
+
+    // Constructor sin parámetros
+    public Pato() {
+        this.patas = 2;
+        this.volar = true;
+    }
+
+    // Constructor con parámetros
+    public Pato(int patas, boolean volar) {
+        this.patas = patas;
+        this.volar = volar;
+    }
+
 }
